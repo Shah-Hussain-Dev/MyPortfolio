@@ -12,7 +12,9 @@
 .tilt:hover {
   /* box-shadow: 0 40px 70px -15px rgba(0, 0, 0, 0.7); */
 }
-
+#about {
+  margin-top: 20px;
+}
 .back-to-top {
   position: fixed;
   bottom: 25px;
@@ -44,6 +46,18 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .container-box {
+    position: relative;
+    height: 96vh;
+    width: 100%;
+    background: url(../images/bg_image.jpg);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0% 0%);
+    font-family: "Secular One", sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
   .filters > li {
     width: auto;
     text-align: center;
@@ -55,24 +69,13 @@
     text-align: center;
   }
   .col-left img {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 29rem;
+    margin-bottom: 10px;
   }
   .social-cont {
     width: 100% !important;
   }
-  .container-box {
-                    position: relative;
-                    height: 96vh!important;
-                    width: 100%;
-                    background: url(../images/bg_image.jpg);
-                    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
-                    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0% 0%);
-                    font-family: "Secular One", sans-serif;
-                    background-size: cover;
-                    background-attachment: fixed;
-                    background-position: center;
-                }
   .social-icon {
     width: 100% !important;
     /* margin-left: 4px !important; */
